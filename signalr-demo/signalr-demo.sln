@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceSurf", "PerformanceSurf\PerformanceSurf.csproj", "{80BC8EA0-27E6-4351-B354-D4944BDECB9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceSurf.Tests", "PerformanceSurf.Tests\PerformanceSurf.Tests.csproj", "{5F843E53-3A9E-420D-95B1-86947D5FE872}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80BC8EA0-27E6-4351-B354-D4944BDECB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BC8EA0-27E6-4351-B354-D4944BDECB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BC8EA0-27E6-4351-B354-D4944BDECB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BC8EA0-27E6-4351-B354-D4944BDECB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F843E53-3A9E-420D-95B1-86947D5FE872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F843E53-3A9E-420D-95B1-86947D5FE872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F843E53-3A9E-420D-95B1-86947D5FE872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F843E53-3A9E-420D-95B1-86947D5FE872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
